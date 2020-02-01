@@ -5,8 +5,6 @@
 # end
 
 def square_array(numbers)
-  results =[]
   numbers.each do |num|
-    nim*num
+    num*num
     return
-    
