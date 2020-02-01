@@ -6,8 +6,8 @@
 
 def square_array(numbers)
   results = []
-  results.push [numbers.each do |num|
-    num*num]
+  results.push #{[numbers.each do |num|
+    num*num]}
   end
 end
  
