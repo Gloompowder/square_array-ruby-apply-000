@@ -5,5 +5,6 @@
 # end
 
 def square_array(numbers)
+  results =[]
   numbers.each do |index|
     numbers.pop **2
