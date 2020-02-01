@@ -5,8 +5,6 @@
 # end
 
 def square_array(numbers)
-  results = []
-  numbers.each do |num|
-    num*num
-    return numbers
+  results = [numbers.each do |num|
+    num*num]
  
