@@ -8,7 +8,7 @@ def square_array(numbers)
   results = []
   numbers.each do |integer|
   results.push integer*integer
-  return results
   end
+  return results
 end
  
