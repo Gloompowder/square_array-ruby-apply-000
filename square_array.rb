@@ -6,5 +6,7 @@
 
 def square_array(numbers)
   results =[]
-  numbers.each do |index|
-    numbers.pop **2
+  numbers.each do |num|
+    nim*num
+    return
+    
