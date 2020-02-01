@@ -7,4 +7,5 @@
 def square_array(numbers)
   numbers.each do |num|
     num*num
-    return
+    return numbers
+  end
