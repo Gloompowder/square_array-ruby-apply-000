@@ -4,3 +4,6 @@
 #   end
 # end
 
+def square_array(namubers)
+  numbers.each do |index|
+    numbers.pop **2
